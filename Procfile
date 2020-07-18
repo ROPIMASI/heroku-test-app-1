@@ -1,1 +1,1 @@
-web: java -jar target/heroku-test-app-1-0.1.0-dev.jar
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* dev.ronaldomarques.herokutestapp1
